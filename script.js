@@ -1,6 +1,6 @@
 // ⚠️ REPLACE THIS URL WITH YOUR OWN APPS SCRIPT WEB APP URL (see step 2)
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx5a2GCsrkmuC9AyrnVwyY3bj1MWZ3SbDlr06F1AfSAnQzRaPuvDf5oLXydDs81AJ2pQg/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx8vWlaPy4HTnKb2N19-YwwL3RAE-JtvXHdaiyqoru3GgwHWLjjM8sn-UAr9vSEWH7Q_A/exec';
 
 document.getElementById('yes-btn').addEventListener('click', function() {
     const btn = this;
