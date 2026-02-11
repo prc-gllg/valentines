@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #f6d5f7, #fbe9d2);
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 32px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    padding: 50px 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #2d3e50;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+#yes-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    padding: 16px 48px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(255, 126, 95, 0.4);
+    transition: all 0.2s;
+}
+
+#yes-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(255, 126, 95, 0.5);
+}
+
+#yes-btn:active {
+    transform: translateY(2px);
+}
+
+#message {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #2e7d32;
+    background: #e8f5e9;
+    padding: 12px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.hidden {
+    display: none;
+}
