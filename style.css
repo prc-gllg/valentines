@@ -30,7 +30,7 @@ body {
     width: clamp(300px, 80%, 600px); 
 }
 
-.card img {
+.card meme-img {
     max-width: 100%;
     height: auto;
     display: block;
