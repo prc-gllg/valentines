@@ -64,10 +64,6 @@ document.addEventListener('DOMContentLoaded', function() {
             msg.classList.remove('hidden');
             memeImg.src = "https://i.pinimg.com/originals/88/14/9b/88149b0400750578f4d07d9bc3fb0fee.gif";
 
-            setTimeout(() => {
-                btn.disabled = false;
-                btn.style.opacity = '1';
-            }, 2000);
         })
         .catch(error => {
             console.error('Error:', error);
