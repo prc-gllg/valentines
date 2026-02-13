@@ -68,8 +68,10 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => {
             console.error('Error:', error);
             alert('Something went wrong. Please try again.');
-            btn.disabled = false;
-            btn.style.opacity = '1';
+            btnYes.disabled = false;
+            btnYes.style.opacity = '1';
+            btnNo.disabled = false;
+            btnNo.style.opacity = '1';
         });
     });
 
