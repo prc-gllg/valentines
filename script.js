@@ -45,9 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     btnYes.addEventListener('click', function() {
-        const btn = this;
-        btn.disabled = true;
-        btn.style.opacity = '0.7';
+        btnYes.style.display = 'none';
+        btnNo.style.display = 'none';
 
         fetch(APPS_SCRIPT_URL, {
             method: 'POST',
