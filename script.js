@@ -27,17 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
             text: "Sige na please 🙏🙏🙏"
         },
     ];
-    const imgList = [
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3m-Po83D3amTydTLWvs8nChxpWiX4UaIW0Q&s',
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28smnesYkRrjFdwdVMcZ6JdQzXR-OdXcpkA&s',
-        'https://media.tenor.com/rIVI9zKfEcIAAAAM/puppy-dog-eyes-sad.gif'
-    ];
-    const captionList = [
-        "Will you be my valentine?",
-        "Why 'No' man?",
-        "Sure jud ka? Akong libre",
-        "Sige na please 🙏🙏🙏"
-    ];
+
     let no_count = 0;
     const item = contentList[no_count];
 
@@ -70,7 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(() => {
             // Because of no-cors, we can't read the response, but we assume success
             const msg = document.getElementById('message');
-            msg.textContent = 'YEY!!! Please check your email. heehehehehe';
+            msg.textContent = 'Please check your email. heehehehehe';
+            caption.textContent = 'YEY!!!!';
             msg.classList.remove('hidden');
             memeImg.src = "https://i.pinimg.com/originals/88/14/9b/88149b0400750578f4d07d9bc3fb0fee.gif";
 
